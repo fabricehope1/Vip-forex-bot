@@ -2,8 +2,8 @@ import requests, asyncio
 from datetime import datetime, timedelta
 from telegram import *
 from telegram.ext import *
-
-TOKEN = "SHYIRAMO_TOKEN"
+import os
+TOKEN = os.getenv("TOKEN")
 ADMIN_ID = 8322336050
 CRYPTO = "0xA7123932DF237A24ad8c251502C169d744dd6D41"
 
